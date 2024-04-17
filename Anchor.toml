@@ -1,17 +1,20 @@
 [toolchain]
 
 [features]
-seeds = false
+seeds = true
 skip-lint = false
 
 [programs.localnet]
-counter = "5fZosDLD4gDsNpzqxmwnUTGK3EKXk2TciajMwEttx3Jj"
+counter = "EDimXSJLG8u83mqyZJYtxrRFLQBaePexbYFtuw5ijBau"
+
+[programs.devnet]
+counter = "EDimXSJLG8u83mqyZJYtxrRFLQBaePexbYFtuw5ijBau"
 
 [registry]
 url = "https://api.apr.dev"
 
 [provider]
-cluster = "Localnet"
+cluster = "devnet"
 wallet = "/Users/devdok/.config/solana/id.json"
 
 [scripts]
